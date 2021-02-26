@@ -6,6 +6,7 @@ function Contact() {
   return (
     <Container fluid className=''>
       <div className='main'>
+        <p> Contacts </p>
       </div>
     </Container>
   );

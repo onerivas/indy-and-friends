@@ -13,7 +13,7 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <Container fluid>
+      <Container>
         <NavBar />
           <Switch>
             <Route exact path='/home'>

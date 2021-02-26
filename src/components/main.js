@@ -4,12 +4,15 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 
-function Main() {
+function Main(props) {
   return (
-    <Container fluid className=''>
+    <div>
       <div className='main'>
+        <div className='car mx-auto'>
+          {props.children}
+        </div>
       </div>
-    </Container>
+    </div>
   );
 }
 

@@ -1,3 +1,4 @@
+
 * {
   padding: 0;
   margin: 0;
@@ -19,22 +20,22 @@
 .navbar {
   padding-left: 0 !important;
   padding-right: 0 !important;
+  position: absolute;
 }
 
 .main{
-  background: #a8ce41;
+  background:linear-gradient( white 110px, #a8ce41 110px);
   margin: 0 !important;
-  padding: 0 !important;
-  transform: translateY(110px);
-  height: 100vh;
-  width: 100vw;
+  padding: 100px !important;
   position: absolute;
+  /* transform: translateY(110px); */
   right: 0;
   bottom: 0;
   top:0;
   left:0;
   z-index: -1;
-  /* border-radius: 25px; */
+  height: 100vh;
+  width: auto;
 }
 
 .navLink  {
@@ -53,8 +54,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: white;
-  height: 100vh;
-  width: 100vw;
 }
 
 code {
@@ -62,6 +61,31 @@ code {
     monospace;
 }
 
+.car {
+  margin: 100px 0px;
+  height: auto;
+  width: auto;
+}
+
+.carCap {
+  text-align: center;
+  /* color: #6f3415; */
+  color: white;
+  font-family: collector-comic,sans-serif;
+  /* text-shadow: 2px 2px white; */
+}
+.carImg {
+  border-radius: 5%;
+}
+.carousel-item {
+  height: auto;
+}
+.carousel-indicators {
+  display: none !important;
+}
+.img-fluid {
+  max-width: 60% !important;
+}
 /* font-family: collector-comic,sans-serif;
 font-weight: 400;
 font-style: normal;
