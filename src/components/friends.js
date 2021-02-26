@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Image from 'react-bootstrap/Image';
+import Container from 'react-bootstrap/Container';
 import Carousel from 'react-bootstrap/Carousel';
 import Main from '../components/main';
 import indy from '../images/Indy.png';
@@ -26,7 +27,7 @@ function Friends() {
       <Carousel>
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
-            <Image fluid
+            <Image
               className='carImg'
               src={indy}
               alt='Indy, the dog, dressed in a Indiana Jones costume'
@@ -40,7 +41,7 @@ function Friends() {
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
             <img
-              className ='img-fluid carImg'
+              className ='carImg'
               src={bambamBear}
               alt='Two small dogs at the beach'
             />
@@ -53,7 +54,7 @@ function Friends() {
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
             <img
-              className ='img-fluid carImg'
+              className ='carImg'
               src={bear}
               alt='Bear (a small fluffy dog) sitting on a hardwood floor'
             />
@@ -66,7 +67,7 @@ function Friends() {
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
             <img
-              className ='img-fluid carImg'
+              className ='carImg'
               src={bearTree}
               alt='Bear (a small fluffy dog) relaxing under a tree'
             />
@@ -79,7 +80,7 @@ function Friends() {
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
             <img
-              className ='img-fluid carImg'
+              className ='carImg'
               src={josie}
               alt='Bear (a small fluffy dog) relaxing under a tree'
             />
@@ -92,7 +93,7 @@ function Friends() {
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
             <img
-              className ='img-fluid carImg'
+              className ='carImg'
               src={lenny}
               alt='Bear (a small fluffy dog) relaxing under a tree'
             />
@@ -105,7 +106,7 @@ function Friends() {
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
             <img
-              className ='img-fluid carImg'
+              className ='carImg'
               src={maggieDeck}
               alt='Bear (a small fluffy dog) relaxing under a tree'
             />
@@ -118,7 +119,7 @@ function Friends() {
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
             <img
-              className ='img-fluid carImg'
+              className ='carImg'
               src={maggiePort}
               alt='Bear (a small fluffy dog) relaxing under a tree'
             />
@@ -131,7 +132,7 @@ function Friends() {
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
             <img
-              className ='img-fluid carImg'
+              className ='carImg'
               src={ryderDigger}
               alt='Bear (a small fluffy dog) relaxing under a tree'
             />
@@ -144,7 +145,7 @@ function Friends() {
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
             <img
-              className ='img-fluid carImg'
+              className ='carImg'
               src={sophie}
               alt='Bear (a small fluffy dog) relaxing under a tree'
             />
@@ -157,7 +158,7 @@ function Friends() {
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
             <img
-              className ='img-fluid carImg'
+              className ='carImg'
               src={stanleyAndSophie}
               alt='Bear (a small fluffy dog) relaxing under a tree'
             />
@@ -170,7 +171,7 @@ function Friends() {
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
             <img
-              className ='img-fluid carImg'
+              className ='carImg'
               src={teddy}
               alt='Bear (a small fluffy dog) relaxing under a tree'
             />
@@ -183,7 +184,7 @@ function Friends() {
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
             <img
-              className ='img-fluid carImg'
+              className ='carImg'
               src={tuna}
               alt='Bear (a small fluffy dog) relaxing under a tree'
             />

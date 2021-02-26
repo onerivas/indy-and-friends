@@ -12,10 +12,6 @@
 *::-webkit-scrollbar {
   display: none;
 }
-.whiteBG {
-
-
-}
 
 .navbar {
   padding-left: 0 !important;
@@ -26,7 +22,7 @@
 .main{
   background:linear-gradient( white 110px, #a8ce41 110px);
   margin: 0 !important;
-  padding: 100px !important;
+  padding: 50px !important;
   position: absolute;
   /* transform: translateY(110px); */
   right: 0;
@@ -34,7 +30,7 @@
   top:0;
   left:0;
   z-index: -1;
-  height: 100vh;
+  /* height: 100vh; */
   width: auto;
 }
 
@@ -62,9 +58,9 @@ code {
 }
 
 .car {
-  margin: 100px 0px;
-  height: auto;
-  width: auto;
+  margin: 150px 0px;
+  /* height: auto;
+  width: auto; */
 }
 
 .carCap {
@@ -72,10 +68,12 @@ code {
   /* color: #6f3415; */
   color: white;
   font-family: collector-comic,sans-serif;
+  margin: 5px 0px;
   /* text-shadow: 2px 2px white; */
 }
 .carImg {
   border-radius: 5%;
+  max-width: 600px;
 }
 .carousel-item {
   height: auto;
@@ -85,6 +83,26 @@ code {
 }
 .img-fluid {
   max-width: 60% !important;
+}
+
+
+@media (max-width:768px) {
+  .carImg {
+    border-radius: 5%;
+    max-width: 400px;
+  }
+}
+@media (max-width:500px) {
+  .carImg {
+    border-radius: 5%;
+    width: 100%;
+  }
+}
+@media (max-width:414px) {
+  .carImg {
+    border-radius: 5%;
+    width: 100%;
+  }
 }
 /* font-family: collector-comic,sans-serif;
 font-weight: 400;
