@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
+import Main from '../components/main';
+
 
 
 function Contact() {
   return (
-    <Container fluid className=''>
-      <div className='main'>
-        <p> Contacts </p>
-      </div>
-    </Container>
+    <Main>
+    </Main>
   );
 }
 
