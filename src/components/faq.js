@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import Main from '../components/main';
+
 
 
 function Faq() {
   return(
-    <div>
-      <p> FAQ </p>
-    </div>
+    <Main>
+      <p> FAQ gotta add questions</p>
+    </Main>
   );
 }
 
