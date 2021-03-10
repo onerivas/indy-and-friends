@@ -7,7 +7,7 @@ import Col from "react-bootstrap/Col";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 
-function NavBar(props) {
+function NavBar() {
   return (
         <Navbar className='justify-content-center'>
           <Nav >

@@ -35,7 +35,7 @@ function Friends() {
           </div>
           <div className='carCap'>
             <h3>Hello, I'm Indy!</h3>
-            <p> Click through and check out all our friends!!!</p>
+            <p className='carText'> Click through and check out all our friends!!!</p>
           </div>
         </Carousel.Item>
         <Carousel.Item>
@@ -48,7 +48,7 @@ function Friends() {
           </div>
           <div className='carCap'>
             <h3>BamBam and Bear</h3>
-            <p>Our friends on one of our trips to the beach!</p>
+            <p className='carText'>Our friends on one of our trips to the beach!</p>
           </div>
         </Carousel.Item>
         <Carousel.Item>
@@ -61,7 +61,7 @@ function Friends() {
           </div>
           <div className='carCap'>
             <h3>Bear</h3>
-            <p>Patiently posing for his photo</p>
+            <p className='carText'>Patiently posing for his photo</p>
           </div>
         </Carousel.Item>
         <Carousel.Item>
@@ -74,7 +74,7 @@ function Friends() {
           </div>
           <div className='carCap'>
             <h3>Bear</h3>
-            <p> Taking a break under a tree during one of his visits</p>
+            <p className='carText'> Taking a break under a tree during one of his visits</p>
           </div>
         </Carousel.Item>
         <Carousel.Item>
@@ -82,12 +82,12 @@ function Friends() {
             <img
               className ='carImg'
               src={josie}
-              alt='Bear (a small fluffy dog) relaxing under a tree'
+              alt='An extreme close up of Josie (a maine coon cat)'
             />
           </div>
           <div className='carCap'>
             <h3>Josie</h3>
-            <p> She was trying to hide but we were about to get a good photo of her. </p>
+            <p className='carText'> She was trying to hide but we were about to get a good photo of her. </p>
           </div>
         </Carousel.Item>
         <Carousel.Item>
@@ -95,12 +95,12 @@ function Friends() {
             <img
               className ='carImg'
               src={lenny}
-              alt='Bear (a small fluffy dog) relaxing under a tree'
+              alt='Lenny, a tuxedo cat, sitting at a bathroom sink'
             />
           </div>
           <div className='carCap'>
             <h3>Lenny</h3>
-            <p> Waiting for a drink at the sink. He loves it!!! </p>
+            <p className='carText'> Waiting for a drink at the sink. He loves it!!! </p>
           </div>
         </Carousel.Item>
         <Carousel.Item>
@@ -108,12 +108,12 @@ function Friends() {
             <img
               className ='carImg'
               src={maggieDeck}
-              alt='Bear (a small fluffy dog) relaxing under a tree'
+              alt='Maggie, a newfoundland dog, sitting in the sun on a deck'
             />
           </div>
           <div className='carCap'>
             <h3>Maggie</h3>
-            <p> taking in the sun on her deck </p>
+            <p className='carText'> Taking in the sun on her deck </p>
           </div>
         </Carousel.Item>
         <Carousel.Item>
@@ -121,12 +121,12 @@ function Friends() {
             <img
               className ='carImg'
               src={maggiePort}
-              alt='Bear (a small fluffy dog) relaxing under a tree'
+              alt='Maggie, a newfoundland dog, sitting patiently'
             />
           </div>
           <div className='carCap'>
             <h3>Maggie</h3>
-            <p> being a good girl and posing for a photo </p>
+            <p className='carText'> She was a good girl and posing for a photo </p>
           </div>
         </Carousel.Item>
         <Carousel.Item>
@@ -134,12 +134,12 @@ function Friends() {
             <img
               className ='carImg'
               src={ryderDigger}
-              alt='Bear (a small fluffy dog) relaxing under a tree'
+              alt='Two golden retreivers on a beach'
             />
           </div>
           <div className='carCap'>
             <h3>Ryder and Digger</h3>
-            <p> They had so much fun at the beach! </p>
+            <p className='carText'> They had so much fun at the beach! </p>
           </div>
         </Carousel.Item>
         <Carousel.Item>
@@ -147,12 +147,12 @@ function Friends() {
             <img
               className ='carImg'
               src={sophie}
-              alt='Bear (a small fluffy dog) relaxing under a tree'
+              alt='Sophie, a small goldendoodle, sitting in her backyard.'
             />
           </div>
           <div className='carCap'>
             <h3>Sophie</h3>
-            <p> She looked so cute we had to take a photo!!! </p>
+            <p className='carText'> She looked so cute we had to take a photo!!! </p>
           </div>
         </Carousel.Item>
         <Carousel.Item>
@@ -160,12 +160,12 @@ function Friends() {
             <img
               className ='carImg'
               src={stanleyAndSophie}
-              alt='Bear (a small fluffy dog) relaxing under a tree'
+              alt='Sophie and Stanely, two goldendoodles sitting in their backyard.'
             />
           </div>
           <div className='carCap'>
             <h3>Sophie and Stanley</h3>
-            <p> He wanted a join the fun! </p>
+            <p className='carText'> He wanted a join the fun! </p>
           </div>
         </Carousel.Item>
         <Carousel.Item>
@@ -173,12 +173,12 @@ function Friends() {
             <img
               className ='carImg'
               src={teddy}
-              alt='Bear (a small fluffy dog) relaxing under a tree'
+              alt='Teddy, a tabby cat, laying on his side in her bed.'
             />
           </div>
           <div className='carCap'>
             <h3>Teddy</h3>
-            <p>relaxing in his bed</p>
+            <p className='carText'>Relaxing in his bed</p>
           </div>
         </Carousel.Item>
         <Carousel.Item>
@@ -186,12 +186,12 @@ function Friends() {
             <img
               className ='carImg'
               src={tuna}
-              alt='Bear (a small fluffy dog) relaxing under a tree'
+              alt='Tuna, a maine coon cat, laying in his bed.'
             />
           </div>
           <div className='carCap'>
             <h3>Tuna</h3>
-            <p>my big brother, Tuna!!!</p>
+            <p className='carText'>My big brother, Tuna!!!</p>
           </div>
         </Carousel.Item>
       </Carousel>
