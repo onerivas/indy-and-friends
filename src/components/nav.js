@@ -23,10 +23,9 @@ function NavBar() {
             </Nav.Item>
           </Nav>
           <img
+            className='indyLogo'
             src={indyAndFriendsLogo}
             alt="indyAndFriendsLogo"
-            width="180"
-            height="180"
             // className='d-line-block align-top'
           />
           <Nav>

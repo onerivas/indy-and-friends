@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <Container>
-        <NavBar className='d-block' />
+        <NavBar className='d-block'/>
           <Switch>
             <Route exact path='/home'>
               <Home />
