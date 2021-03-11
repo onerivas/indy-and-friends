@@ -24,7 +24,7 @@ import tuna from '../images/Tuna.PNG';
 function Friends() {
   return(
     <Main>
-      <Carousel>
+      <Carousel className='w-75 mx-auto'>
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
             <Image
