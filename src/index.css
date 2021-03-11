@@ -91,6 +91,24 @@ code {
   max-width: 60% !important;
 }
 
+@media (max-width:768px) {
+  .carImg {
+    border-radius: 5%;
+    max-width: 400px;
+  }
+}
+@media (max-width:500px) {
+  .carImg {
+    border-radius: 5%;
+    width: 100%;
+  }
+}
+@media (max-width:414px) {
+  .carImg {
+    border-radius: 5%;
+    width: 100%;
+  }
+}
 /* font-family: collector-comic,sans-serif;
 font-weight: 400;
 font-style: normal;

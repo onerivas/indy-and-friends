@@ -13,7 +13,7 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <Container fluid>
+      <Container>
         <NavBar className='d-block' />
           <Switch>
             <Route exact path='/home'>

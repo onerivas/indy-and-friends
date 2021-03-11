@@ -28,7 +28,7 @@ function Friends() {
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
             <Image
-              width='600'
+              className='carImg'
               src={indy}
               alt='Indy, the dog, dressed in a Indiana Jones costume'
               thumbnail
@@ -42,7 +42,7 @@ function Friends() {
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
             <Image
-              width='600'
+              className='carImg'
               src={bambamBear}
               alt='Two small dogs at the beach'
               thumbnail
@@ -56,7 +56,7 @@ function Friends() {
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
             <Image
-              width='600'
+              className='carImg'
               src={bear}
               alt='Bear (a small fluffy dog) sitting on a hardwood floor'
               thumbnail
@@ -70,7 +70,7 @@ function Friends() {
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
             <Image
-              width='600'
+              className='carImg'
               src={bearTree}
               alt='Bear (a small fluffy dog) relaxing under a tree'
               thumbnail
@@ -84,7 +84,7 @@ function Friends() {
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
             <Image
-              width='600'
+              className='carImg'
               src={josie}
               alt='An extreme close up of Josie (a maine coon cat)'
               thumbnail
@@ -98,7 +98,7 @@ function Friends() {
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
             <Image
-              width='600'
+              className='carImg'
               src={lenny}
               alt='Lenny, a tuxedo cat, sitting at a bathroom sink'
               thumbnail
@@ -112,7 +112,7 @@ function Friends() {
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
             <Image
-              width='600'
+              className='carImg'
               src={maggieDeck}
               alt='Maggie, a newfoundland dog, sitting in the sun on a deck'
               thumbnail
@@ -126,7 +126,7 @@ function Friends() {
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
             <Image
-              width='600'
+              className='carImg'
               src={maggiePort}
               alt='Maggie, a newfoundland dog, sitting patiently'
               thumbnail
@@ -140,7 +140,7 @@ function Friends() {
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
             <Image
-              width='600'
+              className='carImg'
               src={ryderDigger}
               alt='Two golden retreivers on a beach'
               thumbnail
@@ -154,7 +154,7 @@ function Friends() {
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
             <Image
-              width='600'
+              className='carImg'
               src={sophie}
               alt='Sophie, a small goldendoodle, sitting in her backyard.'
               thumbnail
@@ -168,7 +168,7 @@ function Friends() {
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
             <Image
-              width='600'
+              className='carImg'
               src={stanleyAndSophie}
               alt='Sophie and Stanely, two goldendoodles sitting in their backyard.'
               thumbnail
@@ -182,7 +182,7 @@ function Friends() {
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
             <Image
-              width='600'
+              className='carImg'
               src={teddy}
               alt='Teddy, a tabby cat, laying on his side in her bed.'
               thumbnail
@@ -196,7 +196,7 @@ function Friends() {
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
             <Image
-              width='600'
+              className='carImg'
               src={tuna}
               alt='Tuna, a maine coon cat, laying in his bed.'
               thumbnail
