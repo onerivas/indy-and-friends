@@ -10,7 +10,7 @@ import Nav from "react-bootstrap/Nav";
 function NavBar() {
   return (
         <Navbar className='justify-content-center'>
-          <Nav >
+          <Nav>
             <Nav.Item>
               <Nav.Link className="navLink" href="/home">
                 Home
