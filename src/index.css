@@ -92,21 +92,21 @@ code {
 .carImg {
   border-radius: 5%;
   width: 600px !important;
-  height: auto;
+  height: 100% !important;
 }
 
 @media (max-width:768px) {
   .carImg {
     border-radius: 5%;
     width:400px !important;
-    height: auto;
+    height: 100% !important;
   }
 }
 @media (max-width:450px) {
   .carImg {
     border-radius: 5%;
     width: 200px !important;
-    height: auto;
+    height: 100% !important;
   }
 }
 /* @media (max-width:414px) {
