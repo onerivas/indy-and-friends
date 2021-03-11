@@ -6,8 +6,8 @@ import Col from 'react-bootstrap/Col';
 
 function Main(props) {
   return (
-    <div>
-      <div className='main'>
+    <div className='main'>
+      <div>
         <div className='car mx-auto'>
           {props.children}
         </div>

@@ -28,170 +28,183 @@ function Friends() {
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
             <Image
-              className='carImg'
+              width='600'
               src={indy}
               alt='Indy, the dog, dressed in a Indiana Jones costume'
+              thumbnail
             />
           </div>
           <div className='carCap'>
             <h3>Hello, I'm Indy!</h3>
-            <p className='carText'> Click through and check out all our friends!!!</p>
+            <p className='text'> Click through and check out all our friends!!!</p>
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
-            <img
-              className ='carImg'
+            <Image
+              width='600'
               src={bambamBear}
               alt='Two small dogs at the beach'
+              thumbnail
             />
           </div>
           <div className='carCap'>
             <h3>BamBam and Bear</h3>
-            <p className='carText'>Our friends on one of our trips to the beach!</p>
+            <p className='text'>Our friends on one of our trips to the beach!</p>
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
-            <img
-              className ='carImg'
+            <Image
+              width='600'
               src={bear}
               alt='Bear (a small fluffy dog) sitting on a hardwood floor'
+              thumbnail
             />
           </div>
           <div className='carCap'>
             <h3>Bear</h3>
-            <p className='carText'>Patiently posing for his photo</p>
+            <p className='text'>Patiently posing for his photo</p>
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
-            <img
-              className ='carImg'
+            <Image
+              width='600'
               src={bearTree}
               alt='Bear (a small fluffy dog) relaxing under a tree'
+              thumbnail
             />
           </div>
           <div className='carCap'>
             <h3>Bear</h3>
-            <p className='carText'> Taking a break under a tree during one of his visits</p>
+            <p className='text'> Taking a break under a tree during one of his visits</p>
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
-            <img
-              className ='carImg'
+            <Image
+              width='600'
               src={josie}
               alt='An extreme close up of Josie (a maine coon cat)'
+              thumbnail
             />
           </div>
           <div className='carCap'>
             <h3>Josie</h3>
-            <p className='carText'> She was trying to hide but we were about to get a good photo of her. </p>
+            <p className='text'> She was trying to hide but we were about to get a good photo of her. </p>
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
-            <img
-              className ='carImg'
+            <Image
+              width='600'
               src={lenny}
               alt='Lenny, a tuxedo cat, sitting at a bathroom sink'
+              thumbnail
             />
           </div>
           <div className='carCap'>
             <h3>Lenny</h3>
-            <p className='carText'> Waiting for a drink at the sink. He loves it!!! </p>
+            <p className='text'> Waiting for a drink at the sink. He loves it!!! </p>
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
-            <img
-              className ='carImg'
+            <Image
+              width='600'
               src={maggieDeck}
               alt='Maggie, a newfoundland dog, sitting in the sun on a deck'
+              thumbnail
             />
           </div>
           <div className='carCap'>
             <h3>Maggie</h3>
-            <p className='carText'> Taking in the sun on her deck </p>
+            <p className='text'> Taking in the sun on her deck </p>
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
-            <img
-              className ='carImg'
+            <Image
+              width='600'
               src={maggiePort}
               alt='Maggie, a newfoundland dog, sitting patiently'
+              thumbnail
             />
           </div>
           <div className='carCap'>
             <h3>Maggie</h3>
-            <p className='carText'> She was a good girl and posing for a photo </p>
+            <p className='text'> She was a good girl and posing for a photo </p>
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
-            <img
-              className ='carImg'
+            <Image
+              width='600'
               src={ryderDigger}
               alt='Two golden retreivers on a beach'
+              thumbnail
             />
           </div>
           <div className='carCap'>
             <h3>Ryder and Digger</h3>
-            <p className='carText'> They had so much fun at the beach! </p>
+            <p className='text'> They had so much fun at the beach! </p>
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
-            <img
-              className ='carImg'
+            <Image
+              width='600'
               src={sophie}
               alt='Sophie, a small goldendoodle, sitting in her backyard.'
+              thumbnail
             />
           </div>
           <div className='carCap'>
             <h3>Sophie</h3>
-            <p className='carText'> She looked so cute we had to take a photo!!! </p>
+            <p className='text'> She looked so cute we had to take a photo!!! </p>
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
-            <img
-              className ='carImg'
+            <Image
+              width='600'
               src={stanleyAndSophie}
               alt='Sophie and Stanely, two goldendoodles sitting in their backyard.'
+              thumbnail
             />
           </div>
           <div className='carCap'>
             <h3>Sophie and Stanley</h3>
-            <p className='carText'> He wanted a join the fun! </p>
+            <p className='text'> He wanted a join the fun! </p>
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
-            <img
-              className ='carImg'
+            <Image
+              width='600'
               src={teddy}
               alt='Teddy, a tabby cat, laying on his side in her bed.'
+              thumbnail
             />
           </div>
           <div className='carCap'>
             <h3>Teddy</h3>
-            <p className='carText'>Relaxing in his bed</p>
+            <p className='text'>Relaxing in his bed</p>
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <div className='d-flex justify-content-center'>
-            <img
-              className ='carImg'
+            <Image
+              width='600'
               src={tuna}
               alt='Tuna, a maine coon cat, laying in his bed.'
+              thumbnail
             />
           </div>
           <div className='carCap'>
             <h3>Tuna</h3>
-            <p className='carText'>My big brother, Tuna!!!</p>
+            <p className='text'>My big brother, Tuna!!!</p>
           </div>
         </Carousel.Item>
       </Carousel>

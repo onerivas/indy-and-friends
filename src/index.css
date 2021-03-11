@@ -3,8 +3,10 @@
   padding: 0;
   margin: 0;
 }
+
+
 .container-fluid {
-  height: 100vh;
+  /* background:linear-gradient( white 110px, #a8ce41 110px); */
   padding: 0 !important;
   margin: 0 !important;
 }
@@ -22,15 +24,16 @@
 .main{
   background:linear-gradient( white 110px, #a8ce41 110px);
   margin: 0 !important;
-  padding: 50px !important;
+  padding-top: 50px !important;
+  /* padding-bottom: 250px !important; */
   position: absolute;
   /* transform: translateY(110px); */
   right: 0;
-  bottom: 0;
+  /* bottom: 0; */
   top:0;
   left:0;
   z-index: -1;
-  /* height: 100vh; */
+  min-height: 100vh;
   width: auto;
 }
 
@@ -71,13 +74,12 @@ code {
   margin: 5px 0px;
   /* text-shadow: 2px 2px white; */
 }
-.carImg {
-  border-radius: 5%;
-  max-width: 600px;
-}
-.carText {
+
+.text {
   font-family: 'Noto Sans KR', sans-serif;
-  font-size: 1.25rem;
+  text-align: center;
+  /* color: #6f3415; */
+  color: white;
 }
 .carousel-item {
   height: auto;
@@ -89,25 +91,6 @@ code {
   max-width: 60% !important;
 }
 
-
-@media (max-width:768px) {
-  .carImg {
-    border-radius: 5%;
-    max-width: 400px;
-  }
-}
-@media (max-width:500px) {
-  .carImg {
-    border-radius: 5%;
-    width: 100%;
-  }
-}
-@media (max-width:414px) {
-  .carImg {
-    border-radius: 5%;
-    width: 100%;
-  }
-}
 /* font-family: collector-comic,sans-serif;
 font-weight: 400;
 font-style: normal;
