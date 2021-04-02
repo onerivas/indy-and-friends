@@ -24,7 +24,7 @@
 .main{
   background:linear-gradient( white 110px, #a8ce41 110px);
   margin: 0 !important;
-  padding-top: 50px !important;
+  padding-top: 40px !important;
   /* padding-bottom: 250px !important; */
   position: absolute;
   /* transform: translateY(110px); */
@@ -64,7 +64,7 @@ code {
 }
 
 .car {
-  margin: 150px 0px;
+  margin-top: 150px;
   /* height: auto;
   width: auto; */
 }
@@ -99,13 +99,11 @@ code {
 }
 
 @media (max-width:768px) {
-  body {
-    width: 100vw;
-  }
+
   .navbar {
     padding-left: 0 !important;
     padding-right: 0 !important;
-    margin-top: 22px;
+    margin-top: 3px;
   }
   .navLink  {
     color: #6f3415 !important;
@@ -115,8 +113,8 @@ code {
     font-style: normal;
   }
   .indyLogo {
-    width: 140px;
-    height: 140px;
+    width: 180px;
+    height: 180px;
   }
   .carImg {
     border-radius: 5%;
@@ -125,18 +123,18 @@ code {
   }
 }
 @media (max-width:450px) {
-  body {
-    width: 100vw;
-  }
   .indyLogo {
     width: 140px;
     height: 140px;
+  }
+  .main{
+    background:linear-gradient( white 88px, #a8ce41 88px);
   }
   .navbar {
     padding-left: 0 !important;
     padding-right: 0 !important;
     margin-right: 0 !important;
-    margin-top: 22px;
+    margin-top: 3px;
   }
   .navLink  {
     color: #6f3415 !important;
