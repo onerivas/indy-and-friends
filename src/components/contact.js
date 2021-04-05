@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
 import Main from '../components/main';
 
 
@@ -7,6 +7,7 @@ import Main from '../components/main';
 function Contact() {
   return (
     <Main>
+
     </Main>
   );
 }

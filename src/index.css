@@ -83,6 +83,7 @@ code {
   text-align: center;
   /* color: #6f3415; */
   color: white;
+  font-weight: bold;
 }
 .carousel-item {
   height: auto;
@@ -96,6 +97,14 @@ code {
   border-radius: 5%;
   width: 600px !important;
   height: 100% !important;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+li {
+  margin: 20px 0;
 }
 
 @media (max-width:768px) {
@@ -121,7 +130,16 @@ code {
     width:400px !important;
     height: 100% !important;
   }
+
+  .text {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    /* color: #6f3415; */
+    color: white;
+    font-weight: normal;
+  }
 }
+
 @media (max-width:450px) {
   .indyLogo {
     width: 140px;
@@ -147,6 +165,13 @@ code {
     border-radius: 5%;
     width: 200px !important;
     height: 100% !important;
+  }
+  .text {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    /* color: #6f3415; */
+    color: white;
+    font-weight: normal;
   }
 }
 /* @media (max-width:414px) {
