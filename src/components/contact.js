@@ -7,7 +7,9 @@ import Main from '../components/main';
 function Contact() {
   return (
     <Main>
-
+      <Form>
+        
+      </Form>
     </Main>
   );
 }

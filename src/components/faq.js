@@ -52,7 +52,7 @@ function Faq() {
               </Accordion.Collapse>
             </Card>
           </Accordion>
-        
+
     </Main>
   );
 }
