@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Switch, Redirect } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import NavBar from './components/nav.js';
 import Main from './components/main.js';
@@ -16,6 +16,9 @@ function App() {
       <Container>
         <NavBar className='d-block'/>
           <Switch>
+            <Route exact path='/'>
+              <Redirect to='/home' />
+            </Route>
             <Route exact path='/home'>
               <Home />
             </Route>
